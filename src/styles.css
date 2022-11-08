@@ -2,24 +2,23 @@
 Beginnen met een beetje flexbox layout
  */
 .container {
-
 }
 
 .item {
-    height: 100px;
-    width: 100px; /* A fixed width as the default */
+  height: 100px;
+  width: 100px; /* A fixed width as the default */
 }
 
 .item-center {
-    flex-grow: 1; /* Set the middle element to grow and stretch */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-grow: 1; /* Set the middle element to grow and stretch */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .item + .item {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 /*
@@ -27,6 +26,24 @@ Dan de rest netjes opmaken
 */
 
 h1 {
-   font-size: larger;
-    font-family: "Comic Sans MS";
+  font-size: xxx-large;
+  font-family: "Comic Sans MS";
+}
+
+/*Kleur tekst op basis van welk land*/
+
+.africa {
+  color: blue;
+}
+.americas {
+  color: green;
+}
+.asia {
+  color: red;
+}
+.europe {
+  color: yellow;
+}
+.oceania {
+  color: purple;
 }

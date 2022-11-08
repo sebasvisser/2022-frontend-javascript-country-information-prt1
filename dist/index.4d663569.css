@@ -16,8 +16,28 @@
 }
 
 h1 {
+  font-size: xxx-large;
   font-family: Comic Sans MS;
-  font-size: larger;
+}
+
+.africa {
+  color: #00f;
+}
+
+.americas {
+  color: green;
+}
+
+.asia {
+  color: red;
+}
+
+.europe {
+  color: #ff0;
+}
+
+.oceania {
+  color: purple;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
