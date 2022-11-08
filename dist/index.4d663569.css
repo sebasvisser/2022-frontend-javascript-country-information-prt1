@@ -1,0 +1,23 @@
+.item {
+  height: 100px;
+  width: 100px;
+}
+
+.item-center {
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.item + .item {
+  margin-left: 2%;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
