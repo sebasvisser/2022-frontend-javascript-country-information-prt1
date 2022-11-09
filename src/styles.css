@@ -47,3 +47,8 @@ h1 {
 .oceania {
   color: purple;
 }
+
+.flag{
+  height: 15px;
+  width: 30px;
+}
