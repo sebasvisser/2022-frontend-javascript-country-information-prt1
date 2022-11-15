@@ -37,22 +37,22 @@ de `package.json`.
 
 ## Randvoorwaarden
 
-* Op basis van de informatie uit de REST Countries API, haal je data op over _alle_ landen ter wereld en geef je deze in
+- Op basis van de informatie uit de REST Countries API, haal je data op over _alle_ landen ter wereld en geef je deze in
   een lijst weer op de pagina;
-* Bovenaan de pagina staat de afbeelding van een wereldkaart (zie de map `assets`);
-* Voor ieder land geef je het volgende weer:
-    1. De naam van het land
-    2. De vlag van dat land
-    3. De zin: `Has a population of [amount] people`
-* De landen zijn gesorteert op populatie, van laag naar hoog;
-* De land-namen moeten worden weergegeven in een kleur die overeenkomt met het continent waar het land in ligt. _Tip_:
+- Bovenaan de pagina staat de afbeelding van een wereldkaart (zie de map `assets`);
+- Voor ieder land geef je het volgende weer:
+  1. De naam van het land
+  2. De vlag van dat land
+  3. De zin: `Has a population of [amount] people`
+- De landen zijn gesorteert op populatie, van laag naar hoog;
+- De land-namen moeten worden weergegeven in een kleur die overeenkomt met het continent waar het land in ligt. _Tip_:
   maak hier een aparte functie voor die een regio-naam verwacht en bepaalt welke kleur het land moet krijgen. Een land
   ligt meestal in één van de volgende vijf contintenten, maar uitzonderingen kunnen voorkomen:
-    * `Africa`: blauw
-    * `Americas`: groen
-    * `Asia`: rood
-    * `Europe`: geel
-    * `Oceania`: paars
+  - `Africa`: blauw
+  - `Americas`: groen
+  - `Asia`: rood
+  - `Europe`: geel
+  - `Oceania`: paars
 
 ## Stappenplan
 
@@ -78,5 +78,6 @@ onderstaand stappenplan gebruiken:
     mapt om de landen op de pagina weer te geven.
 
 **Bonusopdrachten**
+
 - Lees paragraaf 8.2 op EdHub door en kijk hoe je dit kunt toepassen in deze opdracht;
 - Make it look nice! 😍
